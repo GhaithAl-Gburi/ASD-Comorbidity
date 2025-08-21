@@ -6,6 +6,10 @@
 
 **Study DOI / citation:** Toman AK, AbdulRasool HR, Lami F, Jasim SM, Jaber OA, Nayeri ND, Sabet MS, Al‑Gburi G. *Exploring co‑occurring conditions in Iraqi children with autism spectrum disorder: prevalence, characteristics, and potential risk factors.* Frontiers in Psychiatry. 2025. DOI: `10.3389/fpsyt.2025.1592374`.
 
+## Quick view
+Click to view the full analysis results and visualizations:
+[Open rendered report — result.html](https://rawcdn.githack.com/GhaithAl-Gburi/ASD-Comorbidity/main/result.html)
+
 ---
 
 ## Purpose
@@ -17,8 +21,11 @@ This repository contains `Analysis_code.R` — an R script used to analyse co‑
 
 ## Files in this repo
 - `Analysis_code.R` — the main analysis script.  
+- `Analysis_code.Rmd` — R Markdown source (script + narrative + plots).  
+- `result.html` — rendered report (clickable summary of results & plots).  
 - `input.csv` — the dataset expected by the script (see *Expected data format*).  
 - `README.md` — this file.
+- `LICENSE` — MIT License (reuse and citation conditions).
 
 ---
 
@@ -139,7 +146,7 @@ Al-Gburi G. Analysis code for: Exploring co-occurring conditions in Iraqi childr
 ## Contact
 - **Author:** Ghaith Al‑Gburi
 - **Email:** ghaith.ali.khaleel@gmail.com 
-- **GitHub:** `(https://github.com/GhaithAl-Gburi)`  
+- **GitHub:** `https://github.com/GhaithAl-Gburi`  
 - **ORCID:** `0000-0001-7427-8310` 
 
 
