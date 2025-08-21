@@ -52,9 +52,9 @@ for (y in scales){
         stat_summary(fun = median, geom = "crossbar", width = 0.5,
                      color = "blue", size = 0.6) +
         labs( 
-          title    = paste0("Scatter of ", y, " by ", g),
+          title    = paste0("Scatter of ", y, " by ", centre),
           subtitle = paste0("ε² = ", round(eps, 3)),
-          x        = g,
+          x        = centre,
           y        = y
         ) +
         theme_minimal(base_size = 14)
