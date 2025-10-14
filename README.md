@@ -23,7 +23,8 @@ This repository contains `Analysis_code.R` — an R script used to analyse co‑
 - `Analysis_code.R` — the main analysis script.  
 - `Analysis_code.Rmd` — R Markdown source (script + narrative + plots).  
 - `result.html` — rendered report (clickable summary of results & plots).  
-- `input.csv` — the dataset expected by the script (see *Expected data format*).  
+- `input.csv` — the dataset expected by the script (see *Expected data format*).
+- `survey.docx` — the doc file containing the arabic and english version of the research survey
 - `README.md` — this file.
 - `LICENSE` — MIT License (reuse and citation conditions).
 
