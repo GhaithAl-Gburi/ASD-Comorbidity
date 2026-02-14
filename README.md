@@ -64,17 +64,14 @@ Notes / expectations:
 
 ## What the script does (high-level)
 1. **Reads** the dataset.  
-
 2. **Centre comparisons (sample characteristics):**  
    - Compares continuous variables (`age`, `dx_age`, `bmi`) across healthcare centres using Kruskal–Wallis tests.  
    - Computes ε² effect sizes with bootstrap confidence intervals (`rcompanion::epsilonSquared`).  
    - Produces jitter + median crossbar plots for each centre.  
-
 3. **Categorical comparisons across centres:**  
    - Tests categorical variables (`gender`, `asd_fhx`, `epilepsy`, `sleep_disorder`) using Chi-square tests.  
    - Computes Cramér’s V effect sizes with bootstrap confidence intervals (`rcompanion::cramerV`).  
    - Produces proportional stacked bar charts.  
-
 4. **BMI group comparisons:**  
    - **Binary group comparisons:**  
      - Uses Mann–Whitney (Wilcoxon) tests to compare BMI across binary variables.  
@@ -84,7 +81,6 @@ Notes / expectations:
      - Uses Kruskal–Wallis tests for multi-level variables.  
      - Computes ε² effect sizes with bootstrap confidence intervals.  
      - Produces jitter + median crossbar plots for each group.  
-
 5. **Outputs:**  
    - `results_char1` — summary of continuous centre comparisons  
    - `results_char2` — summary of categorical centre comparisons  
